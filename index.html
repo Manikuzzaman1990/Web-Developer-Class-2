@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 2</title>
+    <style>
+      header {
+        border-botton: 2px solid black;
+      }
+      h2 {
+        color: blue;
+        text-align: center;
+      }
+      .about-area {
+        border: 5px solid green;
+        padding: 25px;
+        margin-bottom: 25px;
+      }
+      .about-area p {
+        margin: 20px;
+        border: 20px solid #999;
+        padding: 20px;
+      }
+      .about-area a{
+        display: block;
+        background-color: green;
+        margin-bottom: 5px;
+        padding: 5px;
+      }
+      .details-area{
+        border: 5px solid green;
+        padding: 25px;
+        margin-bottom: 25px;
+      }
+      .details-area h3 {
+        color: red;
+        text-align: center;
+      }
+      #contact-area {
+        border: 5px solid green;
+        padding: 25px;
+        margin-bottom: 25px;
+      }
+      #contact-area h3 {
+        background-color: green;
+        color: #ffff;
+      }
+    footer p {
+     text-align: center;
+     padding: 15px;
+    }
+    </style>
+</head>
+<body>
+   <header>
+     <h1 style="color:green; text-align: center;">
+      welcome to my first website.
+      </h1>
+   </header>
+   <main>
+    <!-- start about area -->
+      <div class="about-area">
+        <h2>I am Manikuzzaman.</h2>
+        <p>
+          I start my coding journy few days ago and 
+          this is my first website.
+        </p>
+        <a href="https://www.Facebook.com"
+        target="_blank">Facebook</a>
+        <a href="https://www.google.com"target="_blank">Google</a>
+        <video width="320px" height="auto" 
+        controls>
+          <source src="Ya-Nafsi-Muhib-Khan.mp4" />
+        </video>
+        <br />
+        <audio controls>
+          <source src="Prithibir-Konay-Konay-Amar-E-Gan.mp3" />
+        </audio>
+        <br />
+        <code>This is code tag</code>
+      </div>
+
+      <!-- End about area -->
+
+      <!-- start details area -->
+      <div class="details-area">
+        <h3>I am learning web development form code with Biswa and my
+          instructor is 
+          <a href="https://Biswajitadhikary.com" target="_blank"
+          >Biswajit Adhikary</a>
+         </h3>
+         <h4>I am learning details about web 
+         development from w3School</h4>
+         <a href="https://w3schools.com">
+          <img src="w3school.jpg" alt="">
+         </a>
+      </div>
+
+      <!-- End details area -->
+
+      <!-- start contact area -->
+      <div id="contact-area">
+        <div class="address">
+          <h3>My address</h3>
+          <address>
+            Astomonisha <br>
+            Vanggura <br>
+            Pabna Rajshahi <br>
+            Bangladesh
+          </address>
+          <span>-----------</span>
+          <br>
+          <button style="button">My address</button>
+        </div>
+
+        <div class="contact-form">
+          <h3>Contact me</h3>
+          <p>Please fill the form click submit button</p>
+          <form action="">
+            <label for="name">Your name:</label>
+            <br>
+            <input type="text" placeholder="Your name" id="name" /> 
+            <br>
+            <label for="email-address">Email address</label>
+            <br>
+            <input type="email" placeholder="Your email" 
+            id="email-address" /> 
+            <br>
+            <label for="massage">Your maessage</label>
+            <br>
+            <textarea 
+             cols="17" 
+             rows="5" 
+             placeholder="Your maessage"
+             id="message"
+             ></textarea>
+             <br>
+             <input type="submit" value="Send Message" />
+          </form>
+        </div>
+      </div>
+      <!-- End contact area -->
+   </main>
+   
+   <footer>
+     <p>All rights reserved </p>
+   </footer>
+</body>
+</html>
